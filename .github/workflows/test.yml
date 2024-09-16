@@ -1,0 +1,39 @@
+name: Unit Tests
+
+on:
+    push:
+        branches:
+            - main
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    Test:
+        runs-on: ubuntu-latest
+
+        strategy:
+            matrix:
+                python-version: [3.10, 3.11, 3.12]
+        
+        steps:
+            - name: Checkout Branch
+              uses: actions/checkout@v3
+            
+            - name: Set up python
+              uses: actions/setup-python@v4
+              with:
+                python-version: ${{ matrix.python-version }}
+            
+            - name: Install Dependencies
+              run: |
+                python -m pip install --upgrade pip
+                pip install .
+            
+            - name: Run Tests and Generate Report
+              uses: pytest --cov
+            
+            - name: Upload Coverage report to CodeCov
+              uses: codecov/codecov-action@v4
+              with:
+                token: ${{ secrets.CODECOV }}
