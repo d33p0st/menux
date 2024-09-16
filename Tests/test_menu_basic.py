@@ -39,6 +39,11 @@ def test_menu_result(capsys, setup_menu):
     with patch('builtins.input', side_effect=['1', '20', '20']):
         result = menu.handler("Enter: ", return_execution_result=True)
         assert result == (True, 40)
+    
+    with patch('builtins.input', side_effect=['2', '20', '20']):
+        result = menu.handler("Enter: ", return_execution_result=True)
+        assert result == (True, 0)
+
 
 def test_menu_formatting(capsys, setup_menu):
     menu = setup_menu
