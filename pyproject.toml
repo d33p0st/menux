@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "menux"
+name = "mr-menu"
 version = "0.1"
 description = "Complex and simple nested menus"
 requires-python = ">=3.10"
@@ -16,7 +16,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-keywords = ['d33p0st', 'menux', 'menu', 'nested-menu', 'complex-menu']
+keywords = ['d33p0st', 'mr-menu', 'menu', 'nested-menu', 'complex-menu']
 readme = {file = "README.md", content-type = "text/markdown"}
 license = { file = "LICENSE" }
 authors = [
@@ -28,7 +28,6 @@ maintainers = [
 dependencies = ["pytest", "pytest-cov"]
 
 [project.urls]
-GitHub = 'https://github.com/d33p0st/menux'
-Issues = 'https://github.com/d33p0st/menux/issues'
-# Documentation = 'https://d33pster.github.io/wrapper-bar/'
-"Pull Requests" = 'https://github.com/d33p0st/menux/pulls'
+GitHub = 'https://github.com/d33p0st/mr-menu'
+Issues = 'https://github.com/d33p0st/mr-menu/issues'
+"Pull Requests" = 'https://github.com/d33p0st/mr-menu/pulls'

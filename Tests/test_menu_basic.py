@@ -1,4 +1,4 @@
-from menux.simple import Menu
+from mr_menu.simple import Menu
 from unittest.mock import patch
 
 import pytest

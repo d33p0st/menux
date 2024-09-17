@@ -1,4 +1,4 @@
-from menux.generator import MenuBuilder
+from mr_menu.generator import MenuBuilder
 from unittest.mock import patch
 
 import pytest

@@ -1,11 +1,11 @@
-[![Unit Tests](https://github.com/d33p0st/menux/actions/workflows/test.yml/badge.svg)](https://github.com/d33p0st/menux/actions/workflows/test.yml)
-[![codecov](https://codecov.io/github/d33p0st/menux/graph/badge.svg?token=NF0LC6QWPX)](https://codecov.io/github/d33p0st/menux)
-[![CD(PYPI)](https://github.com/d33p0st/menux/actions/workflows/pypi.yml/badge.svg)](https://github.com/d33p0st/menux/actions/workflows/pypi.yml)
+[![Unit Tests](https://github.com/d33p0st/mr-menu/actions/workflows/test.yml/badge.svg)](https://github.com/d33p0st/mr-menu/actions/workflows/test.yml)
+[![codecov](https://codecov.io/github/d33p0st/mr-menu/graph/badge.svg?token=NF0LC6QWPX)](https://codecov.io/github/d33p0st/mr-menu)
+[![CD(PYPI)](https://github.com/d33p0st/mr-menu/actions/workflows/pypi.yml/badge.svg)](https://github.com/d33p0st/mr-menu/actions/workflows/pypi.yml)
 # Overview
 
-`Menux` helps create Menus and sub-Menus all at once and helps managing them easily. `Menux` can easily execute menu and sub-menus and their conditional functions all-together.
+`mr-menu` helps create Menus and sub-Menus all at once and helps managing them easily. `mr-menu` can easily execute menu and sub-menus and their conditional functions all-together.
 
-Using `Menux`, you can create a `Tree` of Menus and add functionalities for each menu item. `Menux` can execute those functionalities and return results gracefully.
+Using `mr-menu`, you can create a `Tree` of Menus and add functionalities for each menu item. `mr-menu` can execute those functionalities and return results gracefully.
 
 ## Table of Contents
 
@@ -19,14 +19,14 @@ Using `Menux`, you can create a `Tree` of Menus and add functionalities for each
 
 - **_Nested Tree of Menu and Sub-Menus_**: Single Menu can have multiple sub-menus and further sub-sub-menus and so on.
 
-- **_In-built Execution of defined functions_**: You can define functions for each menu item and `Menux` will execute them based on which option the user chooses.
+- **_In-built Execution of defined functions_**: You can define functions for each menu item and `mr-menu` will execute them based on which option the user chooses.
 
 ## Installation
 
 Execute in Terminal:
 
 ```bash
-pip install menux
+pip install mr-menu
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ pip install menux
   - import the `Menu` class.
 
     ```python
-    from menux.simple import Menu
+    from mr-menu.simple import Menu
     ```
 
   - create functions/class methods for Add and Sub
@@ -89,7 +89,7 @@ pip install menux
   - import `MenuBuilder` classs
 
     ```python
-    from menux.generator import MenuBuilder
+    from mr-menu.generator import MenuBuilder
     ```
 
   - create functions for `Add`, `Sub`, `Multiply` and `divide`
@@ -165,8 +165,8 @@ pip install menux
 
 ## Issues
 
-Please submit any issues found [here](https://github.com/d33p0st/menux/issues).
+Please submit any issues found [here](https://github.com/d33p0st/mr-menu/issues).
 
 ## Pull Requests
 
-Pull Requests are welcome and encouraged. Find it [here](https://github.com/d33p0st/menux/pulls)
+Pull Requests are welcome and encouraged. Find it [here](https://github.com/d33p0st/mr-menu/pulls)
