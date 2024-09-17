@@ -1,6 +1,6 @@
 [![Unit Tests](https://github.com/d33p0st/menux/actions/workflows/test.yml/badge.svg)](https://github.com/d33p0st/menux/actions/workflows/test.yml)
 [![codecov](https://codecov.io/github/d33p0st/menux/graph/badge.svg?token=NF0LC6QWPX)](https://codecov.io/github/d33p0st/menux)
-
+[![CD(PYPI)](https://github.com/d33p0st/menux/actions/workflows/pypi.yml/badge.svg)](https://github.com/d33p0st/menux/actions/workflows/pypi.yml)
 # Overview
 
 `Menux` helps create Menus and sub-Menus all at once and helps managing them easily. `Menux` can easily execute menu and sub-menus and their conditional functions all-together.
